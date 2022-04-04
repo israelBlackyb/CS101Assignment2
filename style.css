@@ -76,7 +76,7 @@
     background-color: white; 
     border: black solid 2px;
     color: #8E1616;
-    padding: 10px 23px;
+    padding: 5px 23px;
     text-align: center;
     text-decoration: none;
     margin-top: 15px;
@@ -86,6 +86,8 @@
 .bannerText{
     position: inherit;
     top: 10%;
+
+    color: white;
 
 }
 
@@ -103,17 +105,57 @@
 }
 
 .findStoreButton{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
+
     display: inline-block;
+    color: white;
+    line-height: 0%;
+    text-decoration: none;
 }
 
 .findStore #location{
     height: 60px;
     width: 60px;
 
-    position: inherit;
-    top: -90px;
-    left: 70px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+
     display: inline-flex;
 }
+
+.body{
+    position: relative;
+}
+
+.deals {
+    position: inherit;
+    top: 60px;
+    left: 30%;
+}
+
+.deals #dealsImg{
+    object-fit: cover;
+    width: 497px;
+    height: 334px;
+}
+
+.dealsButton{
+    width: 503px;
+    height: 70px;
+
+    position: relative;
+    right: 500px;
+    top: 10px;
+
+    display: inline-block;
+
+    background-color: #C10C0C;
+}
+
+.tryme{
+    position: inherit;
+    top: 120px;
+}
+
