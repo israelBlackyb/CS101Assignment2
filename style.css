@@ -88,3 +88,32 @@
     top: 10%;
 
 }
+
+.pickUp{
+    position: inherit;
+    bottom: 28px;
+}
+
+.findStore{
+    position: inherit;
+    left: 50%;
+    top: -110px;
+
+    display: block;    
+}
+
+.findStoreButton{
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.findStore #location{
+    height: 60px;
+    width: 60px;
+
+    position: inherit;
+    top: -90px;
+    left: 70px;
+    display: inline-flex;
+}
