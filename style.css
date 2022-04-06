@@ -51,10 +51,12 @@
 
 .banner{
     height: 130px;
+    width: 100%;
     top: 10px;
 
     background-color: #C10C0C;
     position: relative;
+overflow: hidden;
 
 }
 
@@ -130,32 +132,114 @@
 }
 
 .deals {
-    position: inherit;
+    position: relative;
     top: 60px;
-    left: 30%;
+    left: 5%;
 }
 
 .deals #dealsImg{
     object-fit: cover;
-    width: 497px;
-    height: 334px;
+    width: 31.45%;
+    height: 30%;
+
+    border: #C10C0C solid;
 }
 
 .dealsButton{
-    width: 503px;
+    width: 31.84%;
     height: 70px;
 
     position: relative;
-    right: 500px;
+    right: 604px;
     top: 10px;
 
     display: inline-block;
 
+    border-top: none;
+    border: #C10C0C solid;
+
     background-color: #C10C0C;
 }
 
-.tryme{
-    position: inherit;
-    top: 120px;
+.tryMe{
+    position: relative;
+    top: -380px;
+    left: 50%;
 }
 
+.tryMe #tryMeImg{
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.tryMeButton{
+    width: 600px;
+    height: 70px;
+
+    position: relative;
+    right: 604px;
+    top: 10px;
+
+    display: inline-block;
+
+    border-top: none;
+    border: #C10C0C solid;
+
+    background-color: #C10C0C;
+}
+
+.catering{
+    position: inherit;
+    top: 90px;
+    left: 10%;
+}
+
+
+.catering #caterImg{
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.cateringButton{
+    width: 600px;
+    height: 70px;
+
+    position: relative;
+    right: 604px;
+    top: 10px;
+
+    display: inline-block;
+
+    border-top: none;
+    border: #C10C0C solid;
+
+    background-color: #C10C0C;
+}
+
+.covidHealth{
+
+}
+
+.covidHealth #covidImg{
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+.covidButton{
+    width: 600px;
+    height: 70px;
+
+    position: relative;
+    right: 604px;
+    top: 10px;
+
+    display: inline-block;
+
+    border-top: none;
+    border: #C10C0C solid;
+
+    background-color: #C10C0C;
+}
