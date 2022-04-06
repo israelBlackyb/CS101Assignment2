@@ -51,12 +51,10 @@
 
 .banner{
     height: 130px;
-    width: 100%;
     top: 10px;
 
     background-color: #C10C0C;
     position: relative;
-overflow: hidden;
 
 }
 
@@ -129,117 +127,147 @@ overflow: hidden;
 
 .body{
     position: relative;
+
+    left: 13%;
+    top: -40px;
 }
 
 .deals {
     position: relative;
     top: 60px;
-    left: 5%;
+    
+    width: 25%;
+
 }
 
 .deals #dealsImg{
-    object-fit: cover;
-    width: 31.45%;
-    height: 30%;
+    width: 110%;
+    height: 110%;
 
-    border: #C10C0C solid;
+    background-color: #C10C0C;
 }
 
 .dealsButton{
-    width: 31.84%;
-    height: 70px;
+    position: absolute;
+    bottom: -1%;
+    left: 55%;
+    width: 110%;
 
-    position: relative;
-    right: 604px;
-    top: 10px;
-
-    display: inline-block;
-
-    border-top: none;
-    border: #C10C0C solid;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
     background-color: #C10C0C;
+    color: white;
+    
+    font-size: 3rem;
+    
+    /*padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
 }
 
 .tryMe{
     position: relative;
-    top: -380px;
+    bottom: 400px;
     left: 50%;
+
+    width: 25%;
 }
 
 .tryMe #tryMeImg{
-    object-fit: cover;
-    width: 600px;
-    height: 400px;
+    width: 110%;
+    height: 105%;
+
 }
 
 .tryMeButton{
-    width: 600px;
-    height: 70px;
+    position: absolute;
+    bottom: -20%;
+    left: 55%;
+    width: 110%;
 
-    position: relative;
-    right: 604px;
-    top: 10px;
-
-    display: inline-block;
-
-    border-top: none;
-    border: #C10C0C solid;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
     background-color: #C10C0C;
+    color: white;
+    
+    font-size: 3rem;
+    
+    /*padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.bodyBottom{
+    position: relative;
+    bottom: 100px;
 }
 
 .catering{
-    position: inherit;
-    top: 90px;
-    left: 10%;
+    position: relative;
+    top: -100px;
+    
+    width: 25%;
 }
 
-
 .catering #caterImg{
-    object-fit: cover;
-    width: 600px;
-    height: 400px;
+    width: 110%;
+    height: auto;
 }
 
 .cateringButton{
-    width: 600px;
-    height: 70px;
+    position: absolute;
+    bottom: -60px;
+    left: 55%;
+    width: 110%;
 
-    position: relative;
-    right: 604px;
-    top: 10px;
-
-    display: inline-block;
-
-    border-top: none;
-    border: #C10C0C solid;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
     background-color: #C10C0C;
+    color: white;
+    
+    font-size: 3rem;
+    
+    /*padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .covidHealth{
+    position: relative;
+    bottom: 450px;
+    left: 50%;
 
+    width: 25%;
 }
 
 .covidHealth #covidImg{
-    object-fit: cover;
-    width: 600px;
-    height: 400px;
+    width: 110%;
+    height: auto;
 }
 
 .covidButton{
-    width: 600px;
-    height: 70px;
+    position: absolute;
+    bottom: -28px;
+    left: 55%;
+    width: 110%;
 
-    position: relative;
-    right: 604px;
-    top: 10px;
-
-    display: inline-block;
-
-    border-top: none;
-    border: #C10C0C solid;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
     background-color: #C10C0C;
+    color: white;
+    
+    font-size: 3rem;
+    
+    /*padding: 12px 24px;*/
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
