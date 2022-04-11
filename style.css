@@ -276,3 +276,41 @@
 
 /*Pizza Menu*/
 
+.favouritesHead{
+    position: absolute;
+    top: 20%;
+    width: 80%;
+
+    left: 10%;
+
+    background-color: #C10C0C;
+    text-align: center;
+    padding: 15px;
+
+    font-size: 35px;
+    color: white;
+}
+
+.favRow1{
+position: relative;
+top: 10%;
+left: 10%;
+
+display: table;
+
+}
+
+.beyondBeefSupreme{
+  position: inherit;
+  top: 0%;
+  
+}
+
+.beyondBeefSupreme #bbSup{
+    position: relative;
+
+    width: 90%;
+    height: 10%;
+
+}
+
