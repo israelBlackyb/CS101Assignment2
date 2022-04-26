@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+li{
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    color: #f9f9f9;
+    font-size: 20px;
+}
+li:hover{
+    cursor: pointer;
+    color: pink;
+}
+.signUpMasterContainer, .loginMasterContainer{
+    width: 100vw;
+    height: 100vh;
+    background: tomato;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.signUpContainer, .loginContainer{
+    height: 30%;
+    width: 30%;
+    background: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.signUpExitBtn, .loginExitBtn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}

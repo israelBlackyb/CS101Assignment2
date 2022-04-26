@@ -3,45 +3,51 @@
     <meta name="viewport" content="width=device-width", initial-scale=""1.0>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src=""></script>
     <title>Pizza Hut</title>
 </head>
 
 <body>
-    <div class="navBar">
-            <img  src="images\PHLogo.png" alt="Pizza Hut Logo" id="pizzaHutLogo">
-        </div>
-        <div class="navButtons">
-            <a class="menu" href="menuPizza.html">Menu</a>
-            <a class="stores" href="stores.html">Stores</a>
-            <a class="login" href="login.html">Login</a>
+    <div class="navMenu">
+            <ul>
+                <li><img  src="images\PHLogo.png" alt="Pizza Hut Logo" id="logo"></li>
+                <li class="navOption"><a href="menuPizza.html">Menu</a></li>
+                <li class="navOption"><a href="">Store</a></li>
+                <li class="navOption"><button id="loginBtn"><li>
+            </ul>
         </div>
     </div>
     <div class="banner">
-        <div class="orderOptions">
-            <div class="bannerText"> 
-                <h1>Order online <a href="menuPizza.html" class="go_button">Go</a></h1>
-                <h1 class="pickUp">Pick Up or Delivered</h1>
+        <div class="orderOptions" class="child">
+            <ul class="bannerText">
+                <li>Order online <a href="menuPizza.html" class="go_button">Go</a></li>
+                <li class="pickUp">Pick Up or Delivered</li>
+            </ul>
+        </div>
+
+        <div class="findStore">
+                <a class="findStoreButton" href="">Find Store<img src="images\pin.png" alt="Find your nearest store" id="location"></a>
+        </div>
+
+    </div>
+
+    <div class="bodyWhole">
+        <div class="bodyTop">
+            <div class="deals">
+                <a href="deals.html">
+                    <img href="" src="images\deals.jpg" alt="Combo deals" id="dealsImg">
+                    <button class = "dealsButton" type="button" href="deals.html">Deals</button> 
+                </a>
+            </div>
+
+            <div class="tryMe">
+                <a href="sides.html">
+                    <img src="images\tryMe.png" alt="New and delicous items" id="tryMeImg">
+                    <button class = "tryMeButton" type="button">Try Me</button> 
+                </a>
             </div>
         </div>
-        <div class="findStore">
-                <a class="findStoreButton" href="">Find <br> Store <img src="images\pin.png" alt="Find your nearest store" id="location"></a>
-           
-           
-        </div>
-    </div>
-    <div class="body">
-        <div class="deals">
-            <a href="deals.html">
-                <img href="" src="images\deals.jpg" alt="Combo deals" id="dealsImg">
-                <button class = "dealsButton" type="button" href="deals.html">Deals</button> 
-            </a>
-        </div>
-        <div class="tryMe">
-            <a href="sides.html">
-                <img src="images\tryMe.png" alt="New and delicous items" id="tryMeImg">
-                <button class = "tryMeButton" type="button">Try Me</button> 
-            </a>
-        </div>
+
         <div class="bodyBottom">
             <div class="catering">
                 <a href="catering.html">
@@ -56,8 +62,8 @@
                 </a>
             </div>
         </div>
-        
     </div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
