@@ -95,6 +95,10 @@ background-color: white;
         position: relative;
         display: block;
       }
+
+      #topNavMenu #smlPHLogo{
+        top: 10%;
+      }
       
       /* Hide the links inside the navigation menu (except for logo/home) */
       .topnav #myLinks {
