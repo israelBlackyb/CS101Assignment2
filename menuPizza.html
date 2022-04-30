@@ -11,6 +11,7 @@
             <li><img  src="images\PHLogo.png" alt="Pizza Hut Logo" id="logo"></li>
             <li class="navOption"><a href="menuPizza.html">Menu</a></li>
             <li class="navOption"><a href="">Store</a></li>
+            <li class="navOption"><a href="cart.html">Cart</a></li>
             <li class="navOption"><button id="loginBtn"><li>
         </ul>
     </div>
@@ -24,69 +25,68 @@
             <div class="sectionHead" id="favouritesHead">favourites</div>
                 <div class="row1">
                     <ul class="col1">
-                        <li class="pizzaName">Ultimate Double Cheesy Pepperoni</li>
-                        <li class="menuItem"> <img src="images\menuPizza\beyondBeef.jpg"> </li>
+                        <li class="pizzaName" id="uDblChsPep-name">Ultimate Double Cheesy Pepperoni</li>
+                        <li class="menuItem"> <img src="images\menuPizza\beyondBeef.jpg" alt="" class="pizzaImg"> </li>
                         <li class="menuDescrip">The only thing better than cheese is more cheese. Extra mozzarella bedded into the base, topped with more mozzarella cheesy goodness, slices of mildly spicy pepperoni, grated parmesan cheese all the way to the crust, and a sprinkle of oregano.</li>
-                        <li ><button class="addToCart" href="">Add $12.00</button></li>
+                        <li><button class="addToCart" data-product-id="1">$12.00</button></li>
                     </ul>
                    <ul class="col2">
-                       <li class="pizzaName">Ultimate Double Cheesy Cheese</li>
-                       <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg"></li>
+                       <li class="pizzaName" id="uDblChschs-name">Ultimate Double Cheesy Cheese</li>
+                       <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" alt="" class="pizzaImg"></li>
                        <li class="menuDescrip">The ultimate pizza for cheese-lovers, with extra mozzarella bedded into the base, topped with lashings of melting mozzarella, grated parmesan cheese all the way to the crust, then finished off with a sprinkle of oregano</li>
-                       <li ><button class="addToCart" href="">Add $12.00</button></li>
+                       <li ><button class="addToCart" data-product-id="2">Add $12.00</button></li>
                     </ul>
                 
                  <ul class="col3">
-                    <li class="pizzaName">Beyond Beef Supreme</li>
-                    <li class="menuItem"><img src="images\menuPizza\beyondBeef.jpg"></li>
+                    <li class="pizzaName" id="bbs-name">Beyond Beef Supreme</li>
+                    <li class="menuItem"><img src="images\menuPizza\beyondBeef.jpg" alt="" class="pizzaImg"></li>
                     <li class="menuDescrip">A Pizza Hut classic now made Plant based! Beyond Beef with juicy pineapple, mushrooms, green capsicum, sweet red onion and bubbling with mozzarella.</li>
-                    <li ><button class="addToCart" href="">Add $14.49</button></li>
+                    <li ><button class="addToCart" data-product-id="3">Add $14.49</button></li>
                  </ul>
                 </div>
 
             <div class="sectionHead" >Classic</div>
                 <div class="row1">
                     <ul class="col1">
-                        <li class="pizzaName">Beef and onion</li>
-                        <li class="menuItem"> <img src="images\menuPizza\beyondBeef.jpg"> </li>
+                        <li class="pizzaName" id="bfOn-name">Beef and onion</li>
+                        <li class="menuItem"> <img src="images\menuPizza\beyondBeef.jpg" alt="" class="pizzaImg"> </li>
                         <li class="menuDescrip">Beef. Onion. Cheese. Amazing.</li>
-                        <li ><button class="addToCart" href="">Add $9.99</button></li>
+                        <li ><button class="addToCart" data-product-id="4">Add $9.99</button></li>
                     </ul>
                    <ul class="col2">
-                       <li class="pizzaName">Classic Cheese</li>
-                       <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg"></li>
+                       <li class="pizzaName" id="clsChs-name">Classic Cheese</li>
+                       <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" alt="" class="pizzaImg"></li>
                        <li class="menuDescrip">For when cheese is all you need.</li>
-                       <li ><button class="addToCart" href="">Add $9.49</button></li>
+                       <li ><button class="addToCart" data-product-id="4">Add $9.49</button></li>
                     </ul>
                 
                  <ul class="col3">
-                    <li class="pizzaName">Classic Veggie</li>
-                    <li class="menuItem"><img src="images\menuPizza\beyondBeef.jpg"></li>
+                    <li class="pizzaName" id="clsVeg-name">Classic Veggie</li>
+                    <li class="menuItem"><img src="images\menuPizza\beyondBeef.jpg" alt="" class="pizzaImg"></li>
                     <li class="menuDescrip">Veggies and cheese, yes please!</li>
-                    <li ><button class="addToCart" href="">Add  $9.70</button></li>
+                    <li ><button class="addToCart" data-product-id="5">Add  $9.70</button></li>
                  </ul>
                 </div>
-        </div>
 
             <div class="sectionHead">Deluxe</div>
                 <div class="row1">
                     <ul class="col1">
-                        <li class="pizzaName">Apricot Chicken Deluxe</li>
-                        <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" id="aprChckDlx"></li>
+                        <li class="pizzaName" id="aprChkDlx-name">Apricot Chicken Deluxe</li>
+                        <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" alt="" class="pizzaImg"></li>
                         <li class="menuDescrip">100% chicken breast, veggies and apricot sauce. </li>
-                        <li ><a class="addToCart" href="">Add $17.99</a></li>
+                        <li ><button class="addToCart" data-product-id="6">Add $17.99</button></li>
                     </ul>
                     <ul class="col2">
-                     <li class="pizzaName">Buffalo Chicken</li>
-                     <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" id="bffChck"></li>
+                     <li class="pizzaName" id="bfChk-name">Buffalo Chicken</li>
+                     <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" alt="" class="pizzaImg" ></li>
                      <li class="menuDescrip">Loaded with our epic Buffalo sauce, a spicy hit of jalapeños, Southern-style fried chicken bites, lashings of mozzarella, finished with a creamy ranch drizzle. This one’s got just the right amount of heat.</li>
-                     <li ><a class="addToCart" href="">Add $17.49</a></li>
+                     <li ><button class="addToCart" data-product-id="7">Add $17.49<button></li>
                  </ul>
                  <ul class="col3">
-                     <li class="pizzaName">Chicken Cranberry</li>
-                     <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" id="chckCran"></li>
+                     <li class="pizzaName" id="ChkCrn-name">Chicken Cranberry</li>
+                     <li class="menuItem"><img src="images\menuPizza\apricotChickenDel.jpg" alt="" class="pizzaImg" ></li>
                      <li class="menuDescrip">Juicy slices of 100% whole chicken breast, smothered with cheesy mozzarella and topped with sweet cranberry sauce and creamy mayo.</li>
-                     <li ><a class="addToCart" href="">Add $16.99</a></li>
+                     <li ><button class="addToCart" data-product-id="8">Add $16.99<button></li>
                  </ul>
                </div>
     </div>

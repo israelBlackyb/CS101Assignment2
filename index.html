@@ -2,8 +2,9 @@
 <head>
     <meta name="viewport" content="width=device-width", initial-scale=""1.0>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <script src=""></script>
+    <script src="interaction.js"></script>
     <title>Pizza Hut</title>
 </head>
 
@@ -12,21 +13,32 @@
             <ul>
                 <li><img  src="images\PHLogo.png" alt="Pizza Hut Logo" id="logo"></li>
                 <li class="navOption"><a href="menuPizza.html">Menu</a></li>
-                <li class="navOption"><a href="">Store</a></li>
-                <li class="navOption"><button id="loginBtn"><li>
+                <li class="navOption"><a href="#">Store</a></li>
+                <li class="navOption"><a href="login.html">Login</a><li>
             </ul>
         </div>
     </div>
-    <div class="banner">
+
+<!--Responisve top Bar-->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="images\pizzaHutLogoSmall.png" alt="Small Pizza Hut Logo" id="smlPHLogo"></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="banner">
         <div class="orderOptions" class="child">
             <ul class="bannerText">
                 <li>Order online <a href="menuPizza.html" class="go_button">Go</a></li>
                 <li class="pickUp">Pick Up or Delivered</li>
             </ul>
-        </div>
-
-        <div class="findStore">
-                <a class="findStoreButton" href="">Find Store<img src="images\pin.png" alt="Find your nearest store" id="location"></a>
         </div>
 
     </div>
@@ -39,6 +51,8 @@
                     <button class = "dealsButton" type="button" href="deals.html">Deals</button> 
                 </a>
             </div>
+
+  
 
             <div class="tryMe">
                 <a href="sides.html">
