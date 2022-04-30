@@ -508,9 +508,9 @@ ul{
 }
 }
 
-/*###########*/
-/*Pizza Menu*/
-/*##########*/
+/*########################*/
+/*Pizza Menu Section Head*/
+/*#######################*/
 
 .sectionHead{
     position: relative;
@@ -693,8 +693,176 @@ margin-bottom: 1%;
     cursor: pointer;
 }
 
+/*---------
+Responsive
+----------*/
 @media only screen and (max-width: 600px){
-     
+    .catergoryModal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 3.7%;
+        top: 7%;
+        width: 67%;
+        height: 85%;
+        height: max(300px);
+        overflow: auto;
+        background-color: white;
+        background-color: rgba(235, 228, 228, 0);
+    }
+
+    .catHeader{
+        position: relative;
+        top: 6%;
+        width: 77%;
+    
+        text-align: center;
+    
+        font-size: 18px;
+        color: white;
+    
+        background-color: #C10C0C;
+    
+        padding: 3% 7%;
+    }
+
+    .catUl{
+        font-size: 16px;
+
+        text-align: left;
+
+        padding-left: 8px;
+    }
+
+    .catLi{
+        padding-bottom: 5%;
+    }
+
+    #catButton{
+        position: relative;
+        top: 7%;
+        left: 5%;
+       
+        background-color: #C10C0C;
+        border: #000000 solid 1px;
+    
+        font-size: 20px;
+        color: white;
+        
+        padding: 13px 60px;
+    
+        margin-bottom:1%;
+    }
+
+    .catergory-Content{
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 1px;
+        border: 2px solid #C10C0C;
+        width: 87%;
+    }
+
+    /*Section Head*/
+    .sectionHead{
+        position: relative;
+        top: 30%;
+        width: 100%;
+    
+        left: 0%;
+    
+        background-color: #C10C0C;
+        text-align: center;
+        padding: 15px;
+    
+        font-size: 35px;
+        color: white;
+    }
+    
+    /*Pizza Menu body*/
+    .row1{
+        position: relative;
+        top: 10%;
+        left: 0px;
+        
+        text-align: left;
+        margin-bottom: 1%;
+
+        padding-left: 0px;
+        
+        }
+        
+        .col1{
+            position: inherit;
+            margin: auto 0; 
+            display: inline-block;
+            top: 1%;
+            padding-top: 1%;
+
+            left: -36px;
+        }
+        
+        .col2 {
+            position: inherit;
+            top: 1%;
+            padding-top: 1%;
+            margin: auto 0; 
+           display: inline-block;
+        
+           margin-left: -36px;
+           margin-right: 10%;
+
+        left: 0px;
+        }
+        
+        .col3 {
+            position: inherit;
+            top: 1%;
+            padding-top: 1%;
+        
+            display: inline-block;
+
+            left: -36px;
+        }
+        
+        
+        
+        .pizzaName{
+            font-size: 18px;
+        
+            background-color: #C10C0C;
+            color: #ffffff;
+        
+        }
+        
+        .menuItem{
+            position: relative;
+        
+            top: 1%;
+        
+            width: 10%;
+            height: 8%;
+        }
+        
+        .menuDescrip{
+            display: none;
+        }
+        
+        .addToCart{
+            position: relative;
+            width: 100%;
+        
+            padding: 10%, 30%;
+            background-color: #04AA6D;
+        
+            color: white;
+        
+            display: inline-block;
+        
+            cursor: pointer;
+
+            font-size: 18px;
+        }
+
 }
 
 /*---------------*/
