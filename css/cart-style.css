@@ -202,6 +202,12 @@ input.c-checkout {
   position: relative;
   width: 98%;
   }
+
+  .p-img {
+    max-width: 150px;
+    width: 112px;
+  }
+
 }
 
 
@@ -366,4 +372,9 @@ input.c-checkout {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.emt{
+  visibility: hidden;
+  background: #fefefe;
 }

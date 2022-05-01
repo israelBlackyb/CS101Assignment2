@@ -184,12 +184,16 @@ var cart = {
     // (D2) CART IS EMPTY
     if (empty) {
       item = document.createElement("div");
-      item.innerHTML = "Cart is empty";
       cart.hItems.appendChild(item);
+      item.className = "emt";
+      document.getElementById("cart-items").style.visibility=
+      "hidden";
     }
 
     // (D3) CART IS NOT EMPTY - displayCart ITEMS
     else {
+      document.getElementById("cart-items").style.visibility=
+      "visible";
       let p,
         total = 0,
         subtotal = 0;
