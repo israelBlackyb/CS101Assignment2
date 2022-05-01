@@ -1,0 +1,369 @@
+body {
+  background-color: white;
+}
+
+.menu {
+  display: none;
+}
+.menu-line {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+}
+
+/*########################*/
+/*Pizza Menu Section Head*/
+/*#######################*/
+
+.sectionHead{
+  position: relative;
+  top: 0%;
+  width: 52%;
+  left: 36%;
+  background-color: #C10C0C;
+  text-align: center;
+  padding: 15px;
+  font-size: 35px;
+  color: white;
+}
+
+.wholeMenuContainer{
+  display: flex;
+width: 100%;
+}
+
+#cart-wrap-cart {
+  position: relative;
+  left: 83%;
+  width: 100%;
+  top: 0%;
+}
+
+.menuAndSections{
+  position: relative;
+  right: 41%;
+  top: 5%;
+  width: 133%;
+}
+.cart-products,
+#cart-items {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.cart-products {
+  width: 98%;
+}
+#cart-items {
+  width: 27%;
+}
+input.cart,
+button.cart {
+  padding: 10px;
+  border: 0;
+  background: white;
+  color: #C10C0C;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* (B) PRODUCTS LIST */
+.cart-products {
+  display: flex;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  left: 16%;
+  position: relative;
+}
+.p-item {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  width: 56%;
+  background: #C10C0C;
+}
+.p-img {
+  max-width: 150px;
+}
+.p-name,
+.p-price {
+  font-weight: 700;
+}
+.p-name,
+.p-desc,
+.p-price {
+  margin: 5px 0;
+  color: white;
+}
+
+.p-name {
+  text-transform: uppercase;
+}
+
+
+.p-price {
+  font-size: 1.35em;
+}
+input.p-add {
+  width: 80%;;
+}
+
+/* (C) CURRENT SHOPPING CART */
+
+
+#cart-items {
+  background: #31394d;
+  color: #fff;
+  border-radius: 5px;
+}
+.c-item {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-item > * {
+  box-sizing: border-box;
+}
+.c-name,
+.c-total,
+input.c-empty,
+input.c-checkout {
+  width: 100%;
+}
+.c-total,
+input.c-empty,
+input.c-checkout {
+  margin-top: 10px;
+}
+.c-del {
+  width: 25%;
+}
+.c-qty {
+  width: 75%;
+}
+.c-total {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 600px){
+
+  #head-favourite, 
+  #head-classic, 
+  #head-deluxe{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    background-color: #C10C0C;
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    color: white;
+  }
+
+  .wholeMenuContainer{
+    display: flex;
+  width: 100%;
+  }
+  
+  #cart-wrap-cart {
+    position: relative;
+    left: 69%;
+    width: 100%;
+    top: 0%;
+  }
+  
+#cart-items{
+  width: 72%;
+}
+
+  .menuAndSections{
+    position: relative;
+    right: 41%;
+    top: 5%;
+    width: 133%;
+  }
+  .cart-products,
+  #cart-items {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .cart-products {
+    width: 98%;
+  }
+  .cart-products {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  left: 16%;
+  position: relative;
+  width: 98%;
+  }
+}
+
+
+/* (D) RESPONSIVE */
+@media only screen and (max-width: 600px){
+  .navMenu{
+      display: none;
+  }
+
+  .banner{
+      display: none;
+  }
+
+  #smlPHLogo{
+      position: relative;
+      width: 20%;
+      height: auto;
+
+      top: -21%;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #C10C0C;
+    position: relative;
+    display: block;
+  }
+
+  #topNavMenu #smlPHLogo{
+    top: 10%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #C10C0C;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: white;
+  }
+
+  .bodyWhole{
+   padding-bottom: 15%;
+  }  
+  
+  .bodyTop {
+    margin: 1px;
+    padding-bottom: 20px;
+    }
+}
+
+/********************/
+/*Catergories Modal*/
+/********************/
+
+.catergoryModal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 4%;
+  top: 11%;
+  width: 15%;
+  height: 85%;
+  height: max(300px);
+  overflow: auto;
+  background-color: white;
+  background-color: rgba(235, 228, 228, 0.0);
+}
+
+.catHeader{
+  position: relative;
+  top: 100%;
+  width: 80%;
+
+  text-align: center;
+
+  font-size: 1.5vw;
+  color: white;
+
+  background-color: #C10C0C;
+
+  padding: 3% 7%;
+}
+
+.catUl{
+  font-size: 1vw;
+}
+
+.catLi{
+  padding: 1%;
+}
+
+.catLi:hover{
+  color: #C10C0C;
+  cursor: pointer;
+}
+
+#catButton{
+  position: relative;
+  top: 10%;
+  left: 5%;
+ 
+  background-color: #C10C0C;
+  border: #000000 solid 1px;
+
+  font-size: 20px;
+  color: white;
+  
+  padding: 13px 60px;
+
+  margin-bottom:1%;
+  margin-top: 1%;
+}
+
+#catButton:hover{
+  cursor: pointer;
+}
+
+.catergory-Content{
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 1px;
+  border: 2px solid #C10C0C;
+  width: 80%;
+}
+
+.catergoryClose{
+  color: #8E1616;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.catergoryClose:hover,
+.catergoryClosefocus{
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/cart-style.css" />
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src="../js/products.js"></script>
+    <script src="../js/cart.js"></script>
+   
+  </head>
+  
+  <body>
+      <div class="navMenu">
+              <ul>
+                  <li><img  src="../images/PHLogo.png" alt="Pizza Hut Logo" id="logo"></li>
+                  <li class="navOption"><a href="menuPizza.html">Menu</a></li>
+                  <li class="navOption"><a href="#">Store</a></li>
+                  <li class="navOption"><a href="login.html">Login</a><li>
+              </ul>
+          </div>
+      </div>
+
+      <!--Mobile Nav-->
+      <div class="topnav" id="topNavCart">
+        <a href="index.html" class="active"><img src="../images\pizzaHutLogoSmall.png" alt="Small Pizza Hut Logo" id="smlPHLogo"></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <!--Modal Button-->
+      <button id="catButton">Catergories</button>
+
+
+      <div class="wholeMenuContainer">
+        <div id="cart-menu-container"></div>
+        <div id="cart-wrap-cart">
+          <div id="cart-items"></div>
+        </div>
+  
+        <div class="menuAndSections">
+          <div class="sectionHead" id="head-favourite">Favourites</div>
+          <div id="cart-wrap">
+            <div class="cart-products" id = "fav-prod"></div>
+          </div>
+          <div class="sectionHead" id="head-classic">Classic</div>
+          <div id="cart-wrap">
+            <div class="cart-products" id = "cla-prod"></div>
+          </div>
+          <div class="sectionHead" id="head-deluxe">Deluxe</div>
+          <div id="cart-wrap">
+            <div class="cart-products" id = "del-prod"></div>
+          </div>>
+        </div>
+        </div>
+      </div>
+     
+
+    <div id="catModal" class="catergoryModal">
+      <div class="catergory-Content">
+          <span class="catergoryClose">&times;</span>
+          <h2 class="catHeader">Catergories</h2>
+          <ul class="catUl">
+            <li class="catLi" href="menuPizza.html">Pizzas</li>
+            <li class="catLi" href="#">Sides</li>
+            <li class="catLi" href="#">Desserts</li>
+            <li class="catLi" href="#">Drinks</li>
+            <li class="catLi" href="#">Catering</li>
+          </ul>
+      </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="../js/interaction.js"></script>
+  </body>
+</html>
