@@ -4,7 +4,7 @@ var cart = {
   // hPdt3: null,
   hItems: null,
   items: {},
-  iURL: "../images/menuPizza/",
+  iURL: "images/",
 
   saveCart: function () {
     localStorage.setItem("cart", JSON.stringify(cart.items));
